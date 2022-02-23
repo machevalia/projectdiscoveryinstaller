@@ -15,7 +15,7 @@ if [[ "$opt" == *"z"* ]]; then
 elif [[ "$opt" == *"b"* ]]; then
         shell=.bashrc
 fi
-
+printf "\n\n"
 printf "Shell is now equal to $shell\n\n"
 
 if [ `whoami` != root ]; then
