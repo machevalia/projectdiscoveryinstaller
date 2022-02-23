@@ -56,7 +56,7 @@ printf "Installing Subfinder\n\n"
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest > /dev/null
 
 printf "Installing Naabu\n\n"
-sudo apt install -y libpcap-dev 2>/dev/null
+sudo apt install -y libpcap-dev >/dev/null 2>&1
 go install -v  github.com/projectdiscovery/naabu/v2/cmd/naabu@latest > /dev/null
 
 printf "Installing Interactsh\n\n"
