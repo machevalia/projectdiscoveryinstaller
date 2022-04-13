@@ -12,4 +12,5 @@ The following tools will be installed on your machine:
 * ShuffleDNS - MassDNS wrapper written in Golang to resolve valid subdomains and resolve subdomains with wildcards - https://github.com/projectdiscovery/shuffledns
 * Notify - What good is automated recon with notifications to Slack or a similar chatops tool? - https://github.com/projectdiscovery/notify
 * Mapcidr - Great CIDR block and IP address manipulation tool should you need to combine CIDRs/IPs or break them apart in a custom manner - https://github.com/projectdiscovery/mapcidr
+* Uncover - Go wrapper to do search engine discovery on major security search engines such as shodan, censys, fofa, etc.
 
