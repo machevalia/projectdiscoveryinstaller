@@ -77,5 +77,10 @@ go install -v github.com/projectdiscovery/notify/cmd/notify@latest > /dev/null
 printf "Installing mapcidr\n\n"
 go install -v github.com/projectdiscovery/mapcidr/cmd/mapcidr@latest > /dev/null
 
+printf "Installing uncover\n\n"
+go install -v github.com/projectdiscovery/uncover/cmd/uncover@latest > /dev/null
+
+
+
 
 printf "Done installing.\n\nRun 'source ~/.zshrc' or 'source ~/.bashrc' to pick up your new Golang environmental variables if needed. Enjoy!"
