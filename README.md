@@ -1,5 +1,6 @@
 # ProjectDiscoveryInstaller
 I am no longer supporting this project. ProjectDiscovery has created a great tool to install their tools so check that out here - https://github.com/projectdiscovery/pdtm
+
 I created this script to quickly install the most recent version of Golang and the ProjectDiscovery tools that I found my self constantly installing on new machines. 
 
 The following tools will be installed on your machine:
